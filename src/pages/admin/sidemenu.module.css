@@ -1,0 +1,390 @@
+.sideMenuContainer {
+    width: 14%;
+    height: 100vh;
+    border-right: 1px solid #efefef;
+    background-color: #FAF9F6;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.menu {
+    display: none;
+}
+
+.navItems button{
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.navItems button img{
+    width: 15px;
+}
+
+.navItems ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    ;
+}
+
+hr {
+    width: 90%;
+}
+
+.LinknavLink {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    background-color: antiquewhite;
+}
+
+.LinknavLink img {
+    cursor: pointer;
+}
+
+.smlogo {
+    max-width: 20px;
+}
+
+.links {
+    display: none;
+}
+
+/* Xs  */
+
+@media (min-width: 475px) {
+    .sideMenuContainer {
+        width: 20%;
+        height: 100vh;
+        border-right: 1px solid #efefef;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .LinknavLink {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        background-color: antiquewhite;
+    }
+
+    .LinknavLink img {
+        cursor: pointer;
+    }
+
+    .smlogo {
+        max-width: 50px;
+    }
+
+    .links {
+        display: none;
+    }
+}
+
+/* Sm  */
+
+@media (min-width: 640px) {
+    .sideMenuContainer {
+        width: 20%;
+        height: 100vh;
+        border-right: 1px solid #efefef;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .LinknavLink {
+        width: 100%;
+        height: auto;
+        padding: 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        background-color: antiquewhite;
+    }
+
+    .LinknavLink img {
+        width: 20px;
+        cursor: pointer;
+    }
+
+    .smlogo {
+        max-width: 50px;
+    }
+
+    .links {
+        display: none;
+    }
+}
+
+/* Md  */
+
+@media (min-width: 768px) {
+    .sideMenuContainer {
+        width: 25%;
+        height: 100vh;
+        border-right: 1px solid #efefef;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .sideMenu {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .navItems button{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .LinknavLink {
+        width: 100%;
+        height: auto;
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 15px;
+        background-color: antiquewhite;
+        color: #000;
+    }
+
+    .LinknavLink img {
+        width: 15px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .smlogo {
+        max-width: 50px;
+    }
+
+    .links {
+        display: inline-block;
+        cursor: pointer;
+        color: #000;
+    }
+}
+
+/* Lg  */
+
+@media (min-width: 1024px){
+    .sideMenuContainer {
+        width: 20%;
+        height: 100vh;
+        border-right: 1px solid #efefef;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .sideMenu {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .LinknavLink {
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 15px;
+        background-color: antiquewhite;
+        color: #000;
+    }
+
+    .LinknavLink img {
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .smlogo {
+        max-width: 50px;
+    }
+
+    .links {
+        display: inline-block;
+        cursor: pointer;
+        color: #000;
+    }
+}
+/* XL  */
+
+@media (min-width: 1280px){
+    .sideMenuContainer {
+        width: 20%;
+        height: 100vh;
+        border-right: 1px solid #efefef;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .sideMenu {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .LinknavLink {
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 15px;
+        background-color: antiquewhite;
+        color: #000;
+    }
+
+    .LinknavLink img {
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .smlogo {
+        max-width: 50px;
+    }
+
+    .links {
+        display: inline-block;
+        cursor: pointer;
+        color: #000;
+    }
+}
+/* 2xL  */
+
+@media (min-width: 1536px){
+    .sideMenuContainer {
+        width: 18%;
+        height: 100vh;
+        border-right: 1px solid #efefef;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .menu {
+        display: inline-block;
+        width: 100%;
+        padding: 7px 15px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .sideMenu {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .LinknavLink {
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 15px;
+        background-color: antiquewhite;
+        color: #000;
+    }
+
+    .LinknavLink img {
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .smlogo {
+        max-width: 50px;
+    }
+
+    .links {
+        display: inline-block;
+        cursor: pointer;
+        color: #000;
+    }
+}

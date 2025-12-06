@@ -1,0 +1,66 @@
+.manageProductsContainer {
+    width: 100%;
+}
+
+.manageProductsContent {
+    width: 82%;
+    height: 100vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.allpros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 50px;
+    gap: 20px;
+}
+
+.product {
+    width: 550px;
+    height: 300px;
+    padding: 20px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.productImg {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.proDesc {
+    white-space: nowrap;
+    /* keep it on one line */
+    overflow: hidden;
+    /* hide the overflow */
+    text-overflow: ellipsis;
+    /* show "..." at the end */
+    display: block;
+    /* ensure proper layout */
+    max-width: 200px;
+    color: #616161;
+}
+
+.action {
+    display: flex;
+    gap: 15px;
+}

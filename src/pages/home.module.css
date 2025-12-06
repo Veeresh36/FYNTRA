@@ -1,0 +1,45 @@
+.mainCarosel {
+    width: 100%;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.descs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Xs  */
+
+/* @media (min-width: 475px){} *
+/* Sm  */
+
+/* @media (min-width: 640px){} */
+/* Md  */
+
+/* @media (min-width: 768px){} */
+/* Lg  */
+
+/* @media (min-width: 1024px){} */
+/* XL  */
+
+/* @media (min-width: 1280px){} */
+/* 2xL  */
+
+@media (min-width: 1536px) {
+    .descs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainCarosel{
+        display: flex;
+        z-index: 0;
+    }
+}

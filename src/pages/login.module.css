@@ -1,0 +1,664 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.login_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #fff;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img_box {
+    display: none;
+}
+
+.img_box img {
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
+}
+
+form {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e3e3e3;
+}
+
+form .loginBox {
+    height: 40px;
+    padding: 25px 10px;
+    border: 1px solid #817f7f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form .btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 16px 0;
+    background-color: #e88922;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.forpass{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    justify-content: start;
+}
+
+.forgot{
+    color: #9c5305;
+    text-underline-offset: 3px;
+}
+
+.socialMedia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.socialMedia .facebook, .google{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.socialMedia .facebook:hover, .google:hover{
+    background-color: #e88922;
+    color: #fff;
+}
+
+.socialMedia span{
+    font-size: 20px;
+    margin: 0;
+}
+
+.socialMedia img{
+    width: 30px;
+}
+
+.register {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.register span a{
+    text-decoration: none;
+    color: #e88922;
+}
+
+.arrow{
+    width: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: #000;
+}
+/* xxs */
+
+@media (max-width: 375px) {
+
+    
+.login_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #fff;
+}
+
+    .socialMedia .facebook, .google{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.socialMedia span{
+    font-size: 14px;
+    margin: 0;
+}
+
+.socialMedia img{
+    width: 25px;
+}
+
+.register {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.register span a{
+    text-decoration: none;
+    color: #e88922;
+}
+}
+
+/* Xs  */
+
+/* @media (min-width: 475px){} */
+/* Sm  */
+
+@media (min-width: 640px){
+    .login_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #fff;
+}
+
+h1 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img_box {
+    width: 50%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+}
+
+.img_box img {
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
+}
+
+form {
+    width: 100%;
+}
+
+.content {
+    width: 50%;
+    height: 100vh;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e3e3e3;
+}
+
+form .loginBox {
+    height: 40px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: 1px solid #787878;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form .btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 16px 0;
+    background-color: #e88922;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.socialMedia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.socialMedia .facebook, .google{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.socialMedia .facebook:hover, .google:hover{
+    background-color: #e88922;
+    color: #fff;
+}
+
+.socialMedia span{
+    font-size: 20px;
+    margin: 0;
+}
+
+.socialMedia img{
+    width: 30px;
+}
+
+.register {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.register span a{
+    text-decoration: none;
+    color: #e88922;
+}
+}
+/* Md  */
+
+@media (min-width: 768px){
+.login_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #fff;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img_box {
+    width: 50%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+}
+
+.img_box img {
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
+}
+
+form {
+    width: 100%;
+}
+
+.content {
+    width: 50%;
+    height: 100vh;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e3e3e3;
+}
+
+form .loginBox {
+    height: 40px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: 1px solid #787878;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form .btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 16px 0;
+    background-color: #e88922;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.socialMedia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.socialMedia .facebook, .google{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.socialMedia .facebook:hover, .google:hover{
+    background-color: #e88922;
+    color: #fff;
+}
+
+.socialMedia span{
+    font-size: 20px;
+    margin: 0;
+}
+
+.socialMedia img{
+    width: 30px;
+}
+
+.register {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.register span a{
+    text-decoration: none;
+    color: #e88922;
+}
+}
+/* Lg  */
+
+@media (min-width: 1024px){
+
+.login_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #fff;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img_box {
+    width: 50%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+}
+
+.img_box img {
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
+}
+
+form {
+    width: 100%;
+}
+
+.content {
+    width: 50%;
+    height: 100vh;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e3e3e3;
+}
+
+form .loginBox {
+    height: 40px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: 1px solid #787878;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form .btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 16px 0;
+    background-color: #e88922;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.socialMedia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.socialMedia .facebook, .google{
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.socialMedia .facebook:hover, .google:hover{
+    background-color: #e88922;
+    color: #fff;
+}
+
+.socialMedia span{
+    font-size: 20px;
+    margin: 0;
+}
+
+.socialMedia img{
+    width: 30px;
+}
+
+.register {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.register span a{
+    text-decoration: none;
+    color: #e88922;
+}
+}
+/* XL  */
+
+@media (min-width: 1280px){
+    
+.login_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #fff;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img_box {
+    width: 40%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+}
+
+.img_box img {
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
+}
+
+form {
+    width: 100%;
+}
+
+.content {
+    width: 60%;
+    height: 100vh;
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e3e3e3;
+}
+
+form .loginBox {
+    height: 40px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: 1px solid #787878;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form .btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 16px 0;
+    background-color: #e88922;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.socialMedia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.socialMedia .facebook, .google{
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.socialMedia .facebook:hover, .google:hover{
+    background-color: #e88922;
+    color: #fff;
+}
+
+.socialMedia span{
+    font-size: 20px;
+    margin: 0;
+}
+
+.socialMedia img{
+    width: 30px;
+}
+
+.register {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.register span a{
+    text-decoration: none;
+    color: #e88922;
+}
+
+}
+/* 2xL  */
+
+/* @media (min-width: 1536px){} */

@@ -1,0 +1,84 @@
+/* .dashbord{
+    overflow: hidden;
+} */
+
+.container {
+    width: 82%;
+    height: 100vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 50px;
+    background-color: rgb(242, 242, 242);
+}
+
+h3 {
+    padding: 30px 0;
+}
+
+table {
+    width: 70%;
+    border: 1px solid black;
+}
+
+tr th {
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+
+tr td {
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+
+
+/* orders */
+
+.orders {
+    display: flex;
+    gap: 25px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+}
+
+.card {
+    width: 100%;
+    min-width: 40%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    margin: 15px 15px;
+}
+
+.productName {
+    white-space: nowrap;
+    /* keep it on one line */
+    overflow: hidden;
+    /* hide the overflow */
+    text-overflow: ellipsis;
+    /* show "..." at the end */
+    display: block;
+    /* ensure proper layout */
+    max-width: 200px;
+}
+
+.body {
+    padding-left: 20px;
+}
+
+.userInfo {
+    display: flex;
+    gap: 10px;
+}
+
+
+.orderImg {
+    width: 100px;
+    height: 200px;
+    object-fit: contain;
+}

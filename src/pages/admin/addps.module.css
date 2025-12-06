@@ -1,0 +1,1884 @@
+.addPrd {
+        width: 86%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9; 
+    }
+
+    .header h5 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .prddivs {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .details {
+        width: 100%;
+        height: auto;
+        background-color: #F9F9F9;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .details h2 {
+        padding: 0 0 20px 0;
+    }
+
+    .details h4 {
+        font-size: 14px;
+    }
+
+    .cate > span{
+        font-size: 12px;
+    }
+
+    .prdimg {
+        width: 50px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .productsCat .left_data {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+
+    .left_data input,
+    textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #EEEEEE;
+        margin: 10px 0 30px 0;
+        border-radius: 15px;
+        padding: 10px 15px;
+        resize: none;
+        color: #333;
+        font-size: 13px;
+
+    }
+
+    .productsCat .right_data {
+        width: 100%;
+        display: flex;
+        padding: 15px;
+    }
+
+    .persInfo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #F9F9F9;
+        gap: 100px;
+    }
+
+    .persInfo .size {
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .size h4 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .size span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bodySize {
+        padding: 10px 0;
+        margin: 3px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .bodySize button {
+        width: 50px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .persInfo .gender {
+        width: 450px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gender .options {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+
+    .gender h4 {
+        font-size: 24px;
+        line-height: 0px;
+    }
+
+    .gender span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gender label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender input {
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    /* PnS */
+
+    .PnS {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+    }
+
+    .PnS h4 {
+        padding-bottom: 30px;
+    }
+
+    .padd {
+        margin: 20px 0;
+        padding: 15px 25px;
+        border: none;
+        outline: none;
+        background-color: #E88922;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .padd:hover{
+        background-color: #f5952e;
+    }
+
+    .imgUp {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .PsnSs {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .PsnSs h5{
+        font-size: 12px;
+    }
+
+    .PsnSs .left {
+        width: 50%;
+    }
+
+    .PsnSs .right {
+        width: 50%;
+    }
+
+    .PsnSs input .right,
+    .left {
+        width: 100%;
+    }
+
+    .right_data {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+
+    .cate {
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: #F9F9F9;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .cate h4 {
+        padding: 5px 0;
+    }
+
+    .cate span {
+        padding-bottom: 10px;
+    }
+
+    .cate select {
+        width: 100%;
+        background-color: #EEEEEE;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+
+
+/* Xs  */
+
+@media (min-width: 475px){
+    .addPrd {
+        width: 80%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9;  
+    }
+
+    .header h5 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .prddivs {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .details {
+        width: 100%;
+        height: auto;
+        background-color: #F9F9F9;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .details h2 {
+        padding: 0 0 20px 0;
+    }
+
+    .details h4 {
+        font-size: 18px;
+    }
+
+    .prdimg {
+        width: 50px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .productsCat .left_data {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .left_data input,
+    textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #EEEEEE;
+        margin: 10px 0 30px 0;
+        border-radius: 15px;
+        padding: 10px 15px;
+        resize: none;
+        color: #333;
+        font-size: 16px;
+
+    }
+
+    .productsCat .right_data {
+        width: 100%;
+        display: flex;
+        padding: 15px;
+    }
+
+    .persInfo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #F9F9F9;
+        gap: 100px;
+    }
+
+    .persInfo .size {
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .size h4 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .size span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bodySize {
+        padding: 10px 0;
+        margin: 3px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .bodySize button {
+        width: 50px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .persInfo .gender {
+        width: 450px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gender .options {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+
+    .gender h4 {
+        font-size: 24px;
+        line-height: 0px;
+    }
+
+    .gender span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gender label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender input {
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    /* PnS */
+
+    .PnS {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+    }
+
+    .PnS h4 {
+        padding-bottom: 30px;
+    }
+
+    .padd {
+        margin: 20px 0;
+        padding: 15px 25px;
+        border: none;
+        outline: none;
+        background-color: #E88922;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .padd:hover{
+        background-color: #f5952e;
+    }
+
+    .imgUp {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .PsnSs {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .PsnSs h5{
+        font-size: 12px;
+    }
+
+    .PsnSs .left {
+        width: 50%;
+    }
+
+    .PsnSs .right {
+        width: 50%;
+    }
+
+    .PsnSs input .right,
+    .left {
+        width: 100%;
+    }
+
+    .right_data {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+
+    .cate {
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: #F9F9F9;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .cate h4 {
+        padding: 5px 0;
+    }
+
+    .cate span {
+        padding-bottom: 10px;
+    }
+
+    .cate select {
+        width: 100%;
+        background-color: #EEEEEE;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+}
+/* Sm  */
+
+@media (min-width: 640px){
+    .addPrd {
+        width: 80%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9;  
+    }
+
+    .header h5 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .prddivs {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .details {
+        width: 100%;
+        height: auto;
+        background-color: #F9F9F9;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .details h2 {
+        padding: 0 0 20px 0;
+    }
+
+    .details h4 {
+        font-size: 18px;
+    }
+
+    .prdimg {
+        width: 50px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .productsCat .left_data {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .left_data input,
+    textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #EEEEEE;
+        margin: 10px 0 30px 0;
+        border-radius: 15px;
+        padding: 10px 15px;
+        resize: none;
+        color: #333;
+        font-size: 16px;
+
+    }
+
+    .productsCat .right_data {
+        width: 100%;
+        display: flex;
+        padding: 15px;
+    }
+
+    .persInfo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #F9F9F9;
+        gap: 100px;
+    }
+
+    .persInfo .size {
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .size h4 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .size span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bodySize {
+        padding: 10px 0;
+        margin: 3px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .bodySize button {
+        width: 50px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .persInfo .gender {
+        width: 450px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gender .options {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+
+    .gender h4 {
+        font-size: 24px;
+        line-height: 0px;
+    }
+
+    .gender span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gender label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender input {
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    /* PnS */
+
+    .PnS {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+    }
+
+    .PnS h4 {
+        padding-bottom: 30px;
+    }
+
+    .padd {
+        margin: 20px 0;
+        padding: 15px 25px;
+        border: none;
+        outline: none;
+        background-color: #E88922;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .padd:hover{
+        background-color: #f5952e;
+    }
+
+    .imgUp {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .PsnSs {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .PsnSs h5{
+        font-size: 12px;
+    }
+
+    .PsnSs .left {
+        width: 50%;
+    }
+
+    .PsnSs .right {
+        width: 50%;
+    }
+
+    .PsnSs input .right,
+    .left {
+        width: 100%;
+    }
+
+    .right_data {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+
+    .cate {
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: #F9F9F9;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .cate h4 {
+        padding: 5px 0;
+    }
+
+    .cate span {
+        padding-bottom: 10px;
+    }
+
+    .cate select {
+        width: 100%;
+        background-color: #EEEEEE;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+}
+/* Md  */
+
+@media (min-width: 768px){
+    .addPrd {
+        width: 75%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9;  
+    }
+
+    .header h5 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .prddivs {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .details {
+        width: 100%;
+        height: auto;
+        background-color: #F9F9F9;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .details h2 {
+        padding: 0 0 20px 0;
+    }
+
+    .details h4 {
+        font-size: 18px;
+    }
+
+    .prdimg {
+        width: 50px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .productsCat .left_data {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #ffffff;
+        padding: 30px;
+        margin-bottom: -50px;
+    }
+
+    .left_data input,
+    textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #EEEEEE;
+        margin: 10px 0 30px 0;
+        border-radius: 15px;
+        padding: 10px 15px;
+        resize: none;
+        color: #333;
+        font-size: 16px;
+
+    }
+
+    .productsCat .right_data {
+        width: 100%;
+        display: flex;
+        padding: 15px;
+    }
+
+    .persInfo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #F9F9F9;
+        gap: 100px;
+    }
+
+    .persInfo .size {
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .size h4 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .size span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bodySize {
+        padding: 10px 0;
+        margin: 3px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .bodySize button {
+        width: 50px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .persInfo .gender {
+        width: 450px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gender .options {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+
+    .gender h4 {
+        font-size: 24px;
+        line-height: 0px;
+    }
+
+    .gender span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gender label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender input {
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    /* PnS */
+
+    .PnS {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+    }
+
+    .PnS h4 {
+        padding-bottom: 30px;
+    }
+
+    .padd {
+        margin: 20px 0;
+        padding: 15px 25px;
+        border: none;
+        outline: none;
+        background-color: #E88922;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .padd:hover{
+        background-color: #f5952e;
+    }
+
+    .imgUp {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .PsnSs {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .PsnSs h5{
+        font-size: 12px;
+    }
+
+    .PsnSs .left {
+        width: 50%;
+    }
+
+    .PsnSs .right {
+        width: 50%;
+    }
+
+    .PsnSs input .right,
+    .left {
+        width: 100%;
+    }
+
+    .right_data {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+
+    .cate {
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: #F9F9F9;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .cate h4 {
+        padding: 5px 0;
+    }
+
+    .cate span {
+        padding-bottom: 10px;
+    }
+
+    .cate select {
+        width: 100%;
+        background-color: #EEEEEE;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+}
+/* Lg  */
+
+@media (min-width: 1024px){
+.addPrd {
+        width: 80%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9;  
+    }
+
+    .header h5 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .prddivs {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .details {
+        width: 100%;
+        height: auto;
+        background-color: #F9F9F9;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .details h2 {
+        padding: 0 0 20px 0;
+    }
+
+    .details h4 {
+        font-size: 18px;
+    }
+
+    .prdimg {
+        width: 50px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .productsCat .left_data {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .left_data input,
+    textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #EEEEEE;
+        margin: 10px 0 30px 0;
+        border-radius: 15px;
+        padding: 10px 15px;
+        resize: none;
+        color: #333;
+        font-size: 16px;
+
+    }
+
+    .productsCat .right_data {
+        width: 40%;
+        display: flex;
+        padding: 15px;
+    }
+
+    .persInfo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #F9F9F9;
+        gap: 100px;
+    }
+
+    .persInfo .size {
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .size h4 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .size span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bodySize {
+        padding: 10px 0;
+        margin: 3px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .bodySize button {
+        width: 50px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .persInfo .gender {
+        width: 450px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gender .options {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+
+    .gender h4 {
+        font-size: 24px;
+        line-height: 0px;
+    }
+
+    .gender span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gender label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender input {
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    /* PnS */
+
+    .PnS {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+    }
+
+    .PnS h4 {
+        padding-bottom: 30px;
+    }
+
+    .padd {
+        margin: 20px 0;
+        padding: 15px 25px;
+        border: none;
+        outline: none;
+        background-color: #E88922;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .padd:hover{
+        background-color: #f5952e;
+    }
+
+    .imgUp {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .PsnSs {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 50px;
+    }
+
+    .PsnSs .left {
+        width: 50%;
+    }
+
+    .PsnSs .right {
+        width: 50%;
+    }
+
+    .PsnSs input .right,
+    .left {
+        width: 100%;
+    }
+
+    .right_data {
+        height: 100vh;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+
+    .cate {
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: #F9F9F9;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .cate h4 {
+        padding: 5px 0;
+    }
+
+    .cate span {
+        padding-bottom: 10px;
+    }
+
+    .cate select {
+        width: 100%;
+        background-color: #EEEEEE;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+}
+/* XL  */
+
+@media (min-width: 1280px){
+    .addPrd {
+        width: 80%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: scroll;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9;  
+    }
+
+    .header h5 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .prddivs {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .details {
+        width: 100%;
+        height: auto;
+        background-color: #F9F9F9;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .details h2 {
+        padding: 0 0 20px 0;
+    }
+
+    .details h4 {
+        font-size: 18px;
+    }
+
+    .prdimg {
+        width: 50px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .productsCat .left_data {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .left_data input,
+    textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #EEEEEE;
+        margin: 10px 0 30px 0;
+        border-radius: 15px;
+        padding: 10px 15px;
+        resize: none;
+        color: #333;
+        font-size: 16px;
+
+    }
+
+    .productsCat .right_data {
+        width: 40%;
+        display: flex;
+        padding: 15px;
+    }
+
+    .persInfo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #F9F9F9;
+        gap: 100px;
+    }
+
+    .persInfo .size {
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .size h4 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .size span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bodySize {
+        padding: 10px 0;
+        margin: 3px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .bodySize button {
+        width: 50px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .persInfo .gender {
+        width: 450px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gender .options {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+
+    .gender h4 {
+        font-size: 24px;
+        line-height: 0px;
+    }
+
+    .gender span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gender label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender input {
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    /* PnS */
+
+    .PnS {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+    }
+
+    .PnS h4 {
+        padding-bottom: 30px;
+    }
+
+    .padd {
+        margin: 20px 0;
+        padding: 15px 25px;
+        border: none;
+        outline: none;
+        background-color: #E88922;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .padd:hover{
+        background-color: #f5952e;
+    }
+
+    .imgUp {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .PsnSs {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 50px;
+    }
+
+    .PsnSs .left {
+        width: 50%;
+    }
+
+    .PsnSs .right {
+        width: 50%;
+    }
+
+    .PsnSs input .right,
+    .left {
+        width: 100%;
+    }
+
+    .right_data {
+        height: 100vh;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+
+    .cate {
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: #F9F9F9;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .cate h4 {
+        padding: 5px 0;
+    }
+
+    .cate span {
+        padding-bottom: 10px;
+    }
+
+    .cate select {
+        width: 100%;
+        background-color: #EEEEEE;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+}
+/* 2xL  */
+
+@media (min-width: 1536px) {
+    .addPrd {
+        width: 82%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: scroll;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9;  
+    }
+
+    .header h5 {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .prddivs {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .details {
+        width: 100%;
+        height: auto;
+        background-color: #F9F9F9;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .details h2 {
+        padding: 0 0 20px 0;
+    }
+
+    .details h4 {
+        font-size: 18px;
+    }
+
+    .prdimg {
+        width: 50px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .productsCat .left_data {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .left_data input,
+    textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #EEEEEE;
+        margin: 10px 0 30px 0;
+        border-radius: 15px;
+        padding: 10px 15px;
+        resize: none;
+        color: #333;
+        font-size: 16px;
+
+    }
+
+    .productsCat .right_data {
+        width: 40%;
+        display: flex;
+        padding: 15px;
+    }
+
+    .persInfo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #F9F9F9;
+        gap: 100px;
+    }
+
+    .persInfo .size {
+        width: 350px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .size h4 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .size span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bodySize {
+        padding: 10px 0;
+        margin: 3px 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .bodySize button {
+        width: 50px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .persInfo .gender {
+        width: 450px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gender .options {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+
+    .gender h4 {
+        font-size: 24px;
+        line-height: 0px;
+    }
+
+    .gender span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .gender label {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gender input {
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    /* PnS */
+
+    .PnS {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+    }
+
+    .PnS h4 {
+        padding-bottom: 30px;
+    }
+
+    .padd {
+        margin: 20px 0;
+        padding: 15px 25px;
+        border: none;
+        outline: none;
+        background-color: #E88922;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+    .padd:hover{
+        background-color: #f5952e;
+    }
+
+    .imgUp {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .PsnSs {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 50px;
+    }
+
+    .PsnSs .left {
+        width: 50%;
+    }
+
+    .PsnSs .right {
+        width: 50%;
+    }
+
+    .PsnSs input .right,
+    .left {
+        width: 100%;
+    }
+
+    .right_data {
+        height: 100vh;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+
+    .cate {
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: #F9F9F9;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .cate h4 {
+        padding: 5px 0;
+    }
+
+    .cate span {
+        padding-bottom: 10px;
+    }
+
+    .cate select {
+        width: 100%;
+        background-color: #EEEEEE;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,330 @@
+.mainCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.leftPage {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: #fff;
+}
+
+.rightPage {
+    width: 100%;
+    height: fit-content;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+
+.rightPage .container {
+    width: 100%;
+    padding: 20px;
+}
+
+.mainCart {
+    display: flex;
+    justify-content: center;
+    margin: 30px 50px;
+
+}
+
+.cartImg {
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.maincontainer {
+    width: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #888;
+    padding: 20px 20px;
+}
+
+.cartBody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartBody .price {
+    font-size: 20px;
+}
+
+.qtyControls {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid orange;
+}
+
+.qtyControls button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.container>h3 {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    color: #dddddd;
+}
+
+.container h1 {
+    text-align: left;
+}
+
+.ppr {
+    width: 100%;
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.pname {
+    color: #000;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 20px 0 0;
+    font-size: 14px;
+}
+
+hr {
+    width: 100%;
+}
+
+.tophr {
+    border: none;
+    border-top: 2px solid red;
+}
+
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Xs  */
+
+@media (min-width: 475px){
+    .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #888;
+    padding: 20px 20px;
+}
+
+.cartBody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartImg {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+}
+/* Sm  */
+
+/* @media (min-width: 640px){} */
+/* Md  */
+
+@media (min-width: 768px) {}
+
+/* Lg  */
+
+@media (min-width: 1024px) {
+    .mainCart {
+    width: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    margin: 0;
+}
+
+    .leftPage {
+        width: 60%;
+    }
+
+    body {
+        background-color: #fff;
+    }
+
+    .rightPage {
+        width: 30%;
+        height: fit-content;
+        background-color: #f9f9f9;
+        padding: 10px;
+        position: sticky;
+        top: 30px;
+    }
+
+    .rightPage .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .mainCart {
+        display: flex;
+        justify-content: center;
+        margin: 30px 50px;
+
+    }
+
+    .cartImg {
+        width: 150px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .maincontainer {
+        width: 100%;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid #888;
+        padding: 20px 20px;
+    }
+
+    .cartBody {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: start;
+    }
+
+    .cartBody .price {
+        font-size: 25px;
+    }
+
+    .qtyControls {
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        border-radius: 50px;
+        border: 1px solid orange;
+    }
+
+    .qtyControls button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .remove {
+        cursor: pointer;
+    }
+
+    .container>h3 {
+        width: 100%;
+        height: 90vh;
+        text-align: center;
+        color: #dddddd;
+    }
+
+    .container h1 {
+        text-align: left;
+    }
+
+    .ppr {
+        width: 100%;
+        color: orange;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+    }
+
+    .pname {
+        color: #000;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0 20px 0 0;
+        font-size: 14px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .tophr {
+        border: none;
+        border-top: 2px solid red;
+    }
+
+    .total {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* XL  */
+
+/* @media (min-width: 1280px){} */
+/* 2xL  */
+
+/* @media (min-width: 1536px){} */

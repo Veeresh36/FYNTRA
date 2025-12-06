@@ -1,0 +1,591 @@
+.imgUp {
+    width: 100%;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    user-select: none;
+}
+
+
+.imgUploaded {
+    width: 100%;
+}
+
+.dropBox {
+    width: 90%;
+    height: 30vh;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    border: 3px dashed #888;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    margin: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.dropBox:hover {
+    border: 3px dashed #f79226;
+    background-color: #f7922651;
+    color: #b85f00;
+}
+
+.dropBox span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.imgUp h4{
+    font-size: 14px;
+}
+
+.Upimgs {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    padding: 15px;
+    gap: 15px;
+}
+
+.thumbnail {
+    width: 70px;
+    height: 70px;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.thumbnail img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cross {
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.cross:hover {
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+    background-color: #f3060674;
+    border-radius: 15px;
+}
+
+
+/* Xs  */
+
+@media (min-width: 475px){
+    .imgUp {
+        width: 100%;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+        user-select: none;
+    }
+
+    .imgUp h4{
+        font-size: 14px;
+    }
+
+
+    .imgUploaded {
+        width: 100%;
+    }
+
+    .dropBox {
+        width: 85%;
+        height: 35vh;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        border: 3px dashed #888;
+        display: flex;
+        padding: 20px;
+        position: relative;
+        margin: 15px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+
+    .dropBox:hover {
+        border: 3px dashed #f79226;
+        background-color: #f7922651;
+        color: #b85f00;
+    }
+
+    .dropBox span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .Upimgs {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: row;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .thumbnail {
+        width: 70px;
+        height: 70px;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .thumbnail img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .cross {
+        width: 80px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .cross:hover {
+        width: 100%;
+        opacity: 1;
+        cursor: pointer;
+        background-color: #f3060674;
+        border-radius: 15px;
+    }
+}
+/* Sm  */
+
+@media (min-width: 640px){
+    .imgUp {
+        width: 100%;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+        user-select: none;
+    }
+
+    .imgUp h4{
+        font-size: 16px;
+    }
+
+
+    .imgUploaded {
+        width: 100%;
+    }
+
+    .dropBox {
+        width: 85%;
+        height: 35vh;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        border: 3px dashed #888;
+        display: flex;
+        padding: 20px;
+        position: relative;
+        margin: 15px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+
+    .dropBox:hover {
+        border: 3px dashed #f79226;
+        background-color: #f7922651;
+        color: #b85f00;
+    }
+
+    .dropBox span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .Upimgs {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: row;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .thumbnail {
+        width: 70px;
+        height: 70px;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .thumbnail img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .cross {
+        width: 80px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .cross:hover {
+        width: 100%;
+        opacity: 1;
+        cursor: pointer;
+        background-color: #f3060674;
+        border-radius: 15px;
+    }
+}
+/* Md  */
+
+@media (min-width: 768px){
+    .imgUp {
+        width: 100%;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+        user-select: none;
+    }
+
+    .imgUploaded {
+        width: 100%;
+    }
+
+    .dropBox {
+        width: 90%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        border: 3px dashed #888;
+        display: flex;
+        padding: 20px;
+        position: relative;
+        margin: 10px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+
+    .dropBox:hover {
+        border: 3px dashed #f79226;
+        background-color: #f7922651;
+        color: #b85f00;
+    }
+
+    .dropBox span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Upimgs {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: row;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .thumbnail {
+        width: 70px;
+        height: 70px;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .thumbnail img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .cross {
+        width: 80px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .cross:hover {
+        width: 100%;
+        opacity: 1;
+        cursor: pointer;
+        background-color: #f3060674;
+        border-radius: 15px;
+    }
+}
+/* Lg  */
+
+@media (min-width: 1024px) {
+    .imgUp {
+        width: 100%;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+        user-select: none;
+    }
+
+    .imgUploaded {
+        width: 100%;
+    }
+
+    .dropBox {
+        width: 90%;
+        height: 40vh;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        border: 3px dashed #888;
+        display: flex;
+        padding: 20px;
+        position: relative;
+        margin: 15px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+
+    .dropBox:hover {
+        border: 3px dashed #f79226;
+        background-color: #f7922651;
+        color: #b85f00;
+    }
+
+    .dropBox span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Upimgs {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: row;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .thumbnail {
+        width: 70px;
+        height: 70px;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .thumbnail img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .cross {
+        width: 80px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .cross:hover {
+        width: 100%;
+        opacity: 1;
+        cursor: pointer;
+        background-color: #f3060674;
+        border-radius: 15px;
+    }
+}
+
+/* XL  */
+
+@media (min-width: 1280px) {
+    .imgUp {
+        width: 100%;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+        user-select: none;
+    }
+
+    .imgUploaded {
+        width: 100%;
+    }
+
+    .dropBox {
+        width: 90%;
+        height: 40vh;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        border: 3px dashed #888;
+        display: flex;
+        padding: 20px;
+        position: relative;
+        margin: 15px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+
+    .dropBox:hover {
+        border: 3px dashed #f79226;
+        background-color: #f7922651;
+        color: #b85f00;
+    }
+
+    .dropBox span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .Upimgs {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: row;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .thumbnail {
+        width: 70px;
+        height: 70px;
+        background-color: #EEEEEE;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .thumbnail img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .cross {
+        width: 80px;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .cross:hover {
+        width: 100%;
+        opacity: 1;
+        cursor: pointer;
+        background-color: #f3060674;
+        border-radius: 15px;
+    }
+}
+
+/* 2xL  */
+
+/* @media (min-width: 1536px){} */

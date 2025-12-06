@@ -1,0 +1,299 @@
+.passContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #00000076;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #000;
+    font-size: 20px;
+}
+
+
+.passContainer form {
+    width: 80%;
+    height: auto;
+    box-shadow: 0 0 25px 1px #535353;
+    background-color: #fff;
+    padding: 40px;
+}
+
+form input {
+    margin: 20px 0;
+}
+
+.passContainer form .btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #e88922;
+    color: #fff;
+}
+
+.arrow {
+    width: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    margin: 20px;
+    color: #000;
+}
+
+/* Xs  */
+
+@media (min-width: 475px) {
+    .passContainer {
+        width: 100%;
+        height: 100vh;
+        background-color: #00000076;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        color: #000;
+        font-size: 25px;
+    }
+
+
+    .passContainer form {
+        width: 70%;
+        height: auto;
+        box-shadow: 0 0 25px 1px #535353;
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    form input {
+        margin: 20px 0;
+    }
+
+    .passContainer form .btn {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background-color: #e88922;
+        color: #fff;
+    }
+
+    .arrow {
+        width: 35px;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        margin: 20px;
+        color: #000;
+    }
+}
+
+/* Sm  */
+
+@media (min-width: 640px) {
+    .passContainer {
+        width: 100%;
+        height: 100vh;
+        background-color: #00000076;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        color: #000;
+        font-size: 34px;
+    }
+
+
+    .passContainer form {
+        width: 65%;
+        height: auto;
+        box-shadow: 0 0 25px 1px #535353;
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    form input {
+        margin: 20px 0;
+    }
+
+    .passContainer form .btn {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background-color: #e88922;
+        color: #fff;
+    }
+
+    .arrow {
+        width: 35px;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        margin: 20px;
+        color: #000;
+    }
+}
+
+/* Md  */
+
+@media (min-width: 768px) {
+    .passContainer {
+        width: 100%;
+        height: 100vh;
+        background-color: #00000076;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        color: #000;
+        font-size: 34px;
+    }
+
+
+    .passContainer form {
+        width: 60%;
+        height: auto;
+        box-shadow: 0 0 25px 1px #535353;
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    form input {
+        margin: 20px 0;
+    }
+
+    .passContainer form .btn {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background-color: #e88922;
+        color: #fff;
+    }
+
+    .arrow {
+        width: 35px;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        margin: 20px;
+        color: #000;
+    }
+}
+
+/* Lg  */
+
+@media (min-width: 1024px) {
+    .passContainer {
+        width: 100%;
+        height: 100vh;
+        background-color: #00000076;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        color: #000;
+        font-size: 25px;
+    }
+
+
+    .passContainer form {
+        width: 40%;
+        height: auto;
+        box-shadow: 0 0 25px 1px #535353;
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    form input {
+        margin: 20px 0;
+    }
+
+    .passContainer form .btn {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background-color: #e88922;
+        color: #fff;
+    }
+
+    .arrow {
+        width: 35px;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        margin: 20px;
+        color: #000;
+    }
+}
+
+/* XL  */
+
+@media (min-width: 1280px) {
+    .passContainer {
+        width: 100%;
+        height: 100vh;
+        background-color: #00000076;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        color: #000;
+        font-size: 34px;
+    }
+
+
+    .passContainer form {
+        width: 40%;
+        height: auto;
+        box-shadow: 0 0 25px 1px #535353;
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    form input {
+        margin: 20px 0;
+    }
+
+    .passContainer form .btn {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background-color: #e88922;
+        color: #fff;
+    }
+
+    .arrow {
+        width: 35px;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        margin: 20px;
+        color: #000;
+    }
+}
+
+/* 2xL  */
+
+/* @media (min-width: 1536px){} */

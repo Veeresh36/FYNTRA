@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-pills .nav-link.active {
+    color: #000;
+    background-color: #e99337;
+    color: #fff;
+}
+
+.mainCard {
+    height: 100vh;
+    display: flex;
+    overflow-y: auto;
+}
+
+/* Xs  */
+
+/* @media (min-width: 475px){} */
+/* Sm  */
+
+/* @media (min-width: 640px){} */
+/* Md  */
+
+/* @media (min-width: 768px){} */
+/* Lg  */
+
+/* @media (min-width: 1024px){} */
+/* XL  */
+
+/* @media (min-width: 1280px){} */
+/* 2xL  */
+
+/* @media (min-width: 1536px){} */
