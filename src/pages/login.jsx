@@ -10,7 +10,7 @@ import regimg from '../../src/assets/register/02.jpg'
 import fb from '../../src/assets/register/fb.png'
 import gg from '../../src/assets/register/gg.png'
 
-function Login({updateRole}) {
+function Login({ updateRole }) {
     let navigate = useNavigate()
 
     // form data state
@@ -38,7 +38,7 @@ function Login({updateRole}) {
 
             console.log("token", result.token);
             console.log("role", result.role);
-            
+
             // “Even though the server already syncs the cart when you log in, this extra step on the client side is added just to be safe — in case something goes wrong or gets missed.”)
             let cart = JSON.parse(localStorage.getItem("cart")) || []
             if (cart.length > 0) {
@@ -91,13 +91,13 @@ function Login({updateRole}) {
                         }
 
                         <div className={`mb-3 ${style.forpass}`}>
-                            <Link   to="/forgot" className={style.forgot}>Can’t remember your password?</Link>
+                            <Link to="/forgot" className={style.forgot}>Can’t remember your password?</Link>
                         </div>
                         <div className="mb-3">
                             <input type="submit" className={style.btn} />
                         </div>
 
-                        <div className={style.socialMedia}>
+                        {/* <div className={style.socialMedia}>
                             <div className={style.google}>
                                 <img src={gg} alt="" />
                                 <span>Google</span>
@@ -106,10 +106,13 @@ function Login({updateRole}) {
                                 <img src={fb} alt="" />
                                 <span>Apple</span>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className={style.register}>
                             <span>i don't have an account? <Link to="/signup">Register here</Link></span>
+                        </div>
+                        <div className={`${style.adminlogin}`}>
+                            <span>Administrator Access ? <Link to="/admin">Admin Login</Link></span>
                         </div>
                     </form>
                 </div>

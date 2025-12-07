@@ -123,6 +123,18 @@ form .btn {
     text-align: center;
 }
 
+.adminlogin{
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #E88922;
+    padding: 10px;
+}
+
+.adminlogin a{
+    color: #bb6100;
+    text-decoration: none;
+}
+
 .register span a{
     text-decoration: none;
     color: #e88922;
