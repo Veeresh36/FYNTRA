@@ -51,7 +51,7 @@
     box-shadow: 1px 3px 22px -6px rgba(30, 29, 29, 0.98);
 }
 
-.searchResults{
+.searchResults {
     width: 100%;
     position: absolute;
     top: 100%;
@@ -61,7 +61,7 @@
     z-index: 9999;
 }
 
-.searchProducts{
+.searchProducts {
     width: 50%;
     height: fit-content;
     position: absolute;
@@ -78,15 +78,56 @@
     cursor: pointer;
 }
 
-.AllprosLink{
+.AllprosLink {
     text-decoration: none;
     color: #fff;
 }
 
-.allcaticon{
+.allcaticon {
     width: 25px;
     padding: 5px;
 }
+
+.updateLoc {
+    position: relative;
+}
+
+.updateLocLogin {
+    width: 120px;
+    display: none;
+    /* hidden by default */
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    transform: translateX(-50%);
+    background-color: #E88922;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+    transition: 1s ease-in;
+    box-shadow: 0 5px 25px 3px #000000;
+}
+
+/* Triangle at the top center */
+.updateLocLogin::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    /* position above the box */
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #E88922;
+}
+
+/* Show the tooltip on hover of the parent */
+.updateLoc:hover .updateLocLogin {
+    display: flex;
+}
+
 
 
 /* Xs  */

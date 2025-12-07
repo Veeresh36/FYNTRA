@@ -150,8 +150,13 @@ function navbar({ setFillPros, fillpros, role }) {
                                             <img className={style.location} src={c12} alt="" />
                                             <span className={style.custLoc}>select your location</span>
                                         </span>
-                                        <Link to='/login' className={`nav-link text-light ${style.updateLoc}`}>Update Location
+                                        <Link to='' className={`nav-link text-light ${style.updateLoc}`}>Update Location
+
+                                        <Link to='/login' className={`nav-link text-light ${style.updateLocLogin}`}>login
                                         </Link>
+                                        </Link>
+                                        
+                                        
                                     </div>
                                 </li>
 
@@ -462,7 +467,7 @@ function navbar({ setFillPros, fillpros, role }) {
                                     caties.map(drop =>
                                         <>
                                             <li className={`nav-item${style.navLinks}`} key={drop.id} onClick={() => filterByCategory(drop.catid)}>
-                                                <Link className={`nav-link text-light active ${style.catLinks}`} aria-current="page" to={drop.rout}><img className={`${style.cimg}`} src={`http://localhost:5173/src/assets/header/categories icons/${drop.imgpath}`} alt="" />{drop.catname}</Link>
+                                                <Link className={`nav-link text-light active ${style.catLinks}`} aria-current="page" to={drop.rout}><img className={`${style.cimg}`} src={`./src/assets/header/categories icons/${drop.imgpath}`} alt="" />{drop.catname}</Link>
                                             </li>
                                         </>
                                     )

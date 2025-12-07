@@ -59,11 +59,11 @@ function forgot() {
             <div className={style.passContainer}>
                 <form onSubmit={submitHandler}>
                     <h2>Forgot Your Password</h2>
-                    <input type="email" onChange={textHandler} tabIndex="1" name='email' placeholder='Email' className='form-control' />
+                    <input type="email" onChange={textHandler} required tabIndex="1" name='email' placeholder='Email' className='form-control' />
 
-                    <input type="password" onChange={textHandler} tabIndex="1" name='password' placeholder='Password' className='form-control' />
+                    <input type="password" onChange={textHandler} required tabIndex="1" name='password' placeholder='Password' className='form-control' />
 
-                    <input type="password" onChange={textHandler} tabIndex="1" name='confirmPassword' placeholder='Confirm Password' className='form-control' />
+                    <input type="password" onChange={textHandler} required tabIndex="1" name='confirmPassword' placeholder='Confirm Password' className='form-control' />
 
                     <input type="submit" className={style.btn} />
                 </form>

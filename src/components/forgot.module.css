@@ -1,7 +1,6 @@
 .passContainer {
     width: 100%;
     height: 100vh;
-    background-color: #00000076;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +15,6 @@ h2 {
 .passContainer form {
     width: 80%;
     height: auto;
-    box-shadow: 0 0 25px 1px #535353;
     background-color: #fff;
     padding: 40px;
 }
@@ -50,7 +48,6 @@ form input {
     .passContainer {
         width: 100%;
         height: 100vh;
-        background-color: #00000076;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -63,9 +60,9 @@ form input {
 
 
     .passContainer form {
-        width: 70%;
+        width: 100%;
         height: auto;
-        box-shadow: 0 0 25px 1px #535353;
+
         background-color: #fff;
         padding: 40px;
     }
@@ -100,7 +97,6 @@ form input {
     .passContainer {
         width: 100%;
         height: 100vh;
-        background-color: #00000076;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -115,7 +111,7 @@ form input {
     .passContainer form {
         width: 65%;
         height: auto;
-        box-shadow: 0 0 25px 1px #535353;
+
         background-color: #fff;
         padding: 40px;
     }
@@ -150,7 +146,6 @@ form input {
     .passContainer {
         width: 100%;
         height: 100vh;
-        background-color: #00000076;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -165,7 +160,7 @@ form input {
     .passContainer form {
         width: 60%;
         height: auto;
-        box-shadow: 0 0 25px 1px #535353;
+
         background-color: #fff;
         padding: 40px;
     }
@@ -200,7 +195,6 @@ form input {
     .passContainer {
         width: 100%;
         height: 100vh;
-        background-color: #00000076;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -215,7 +209,7 @@ form input {
     .passContainer form {
         width: 40%;
         height: auto;
-        box-shadow: 0 0 25px 1px #535353;
+
         background-color: #fff;
         padding: 40px;
     }
@@ -250,7 +244,6 @@ form input {
     .passContainer {
         width: 100%;
         height: 100vh;
-        background-color: #00000076;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -265,7 +258,7 @@ form input {
     .passContainer form {
         width: 40%;
         height: auto;
-        box-shadow: 0 0 25px 1px #535353;
+
         background-color: #fff;
         padding: 40px;
     }

@@ -1,15 +1,131 @@
-.container{
+/* Container for center alignment and background */
+.container {
     width: 100%;
-    height: 100vh;
+    min-height: 80vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 50px 0;
+    align-items: flex-start;
+    padding: 25px 20px;
+    background: #f0f2f5; /* soft background for card to pop */
 }
 
-.content{
-    width: 50%;
-    height: 100%;
-    background-color: antiquewhite;
-    padding: 50px 30px;
+/* Card container */
+.card {
+    width: 100%;
+    max-width: 95%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px 100px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Title */
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Wrapper for info boxes */
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual info box */
+.infoBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBox label {
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.infoBox span {
+    font-weight: 600;
+    color: #222;
+    padding: 10px 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+/* Input fields for edit mode */
+.infoBox input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.infoBox input:focus {
+    outline: none;
+    border-color: #28a745; /* green accent */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Edit button styles */
+.btn.border-success {
+    background: #fff;
+    color: #28a745;
+    border: 2px solid #28a745;
+}
+
+.btn.border-success:hover {
+    background: #28a745;
+    color: #fff;
+}
+
+/* Save button styles */
+.btn-success {
+    background: #28a745;
+    color: #fff;
+    border: 2px solid #28a745;
+}
+
+.btn-success:hover {
+    background: #218838;
+    border-color: #1e7e34;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card {
+        padding: 30px 20px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .infoBox span,
+    .infoBox input {
+        font-size: 0.95rem;
+    }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
 }
