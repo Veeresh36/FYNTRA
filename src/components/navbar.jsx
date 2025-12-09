@@ -152,11 +152,11 @@ function navbar({ setFillPros, fillpros, role }) {
                                         </span>
                                         <Link to='' className={`nav-link text-light ${style.updateLoc}`}>Update Location
 
-                                        <Link to='/login' className={`nav-link text-light ${style.updateLocLogin}`}>login
+                                            <Link to='/login' className={`nav-link text-light ${style.updateLocLogin}`}>login
+                                            </Link>
                                         </Link>
-                                        </Link>
-                                        
-                                        
+
+
                                     </div>
                                 </li>
 
@@ -508,11 +508,25 @@ function navbar({ setFillPros, fillpros, role }) {
                             <li><NavLink to='/'><img src={m1} alt="mobileNav Icons" /></NavLink></li>
                             <li><NavLink to='/addps'><img src={m3} alt="mobileNav Icons" /></NavLink></li>
                             <li><NavLink to='/'><img src={m5} alt="mobileNav Icons" /></NavLink></li>
-                            <li><NavLink to='/'><img src={m2} alt="mobileNav Icons" /></NavLink></li>
+                            <li><NavLink to='/users'><img src={m2} alt="mobileNav Icons" /></NavLink></li>
                             <li><NavLink to='/cart'><img src={m4} alt="mobileNav Icons" /></NavLink></li>
                         </ul>
                     </nav>
                 </div>
+
+                {role === "user" && (
+                    <div className={style.mobNav}>
+                        <nav className={`navbar fixed-bottom navbar-dark justify-content-around ${style.mobLinks}`}>
+                            <ul>
+                                <li><NavLink to='/'><img src={m1} alt="mobileNav Icons" /></NavLink></li>
+                                <li><NavLink to='/addps'><img src={m3} alt="mobileNav Icons" /></NavLink></li>
+                                <li><NavLink to='/'><img src={m5} alt="mobileNav Icons" /></NavLink></li>
+                                <li><NavLink to='/users'><img src={m2} alt="mobileNav Icons" /></NavLink></li>
+                                <li><NavLink to='/cart'><img src={m4} alt="mobileNav Icons" /></NavLink></li>
+                            </ul>
+                        </nav>
+                    </div>
+                )}
             </div>
         </>
     )
