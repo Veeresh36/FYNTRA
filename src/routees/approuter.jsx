@@ -76,12 +76,12 @@ function Layout() {
     const location = useLocation();
 
     // Hide navbars from this routes
-    const hideNavbarRoutes = ["/login", "/signup", "/otp", "/forgot", "/admin", "/dashbord", "/maindash", "/addps", "/notfound", "/Orders", "/footer", "/manageProducts", '/ratings', '/userinfo', "/editproducts/", "/categouries"];
-    const shouldHideNavbar = hideNavbarRoutes.includes(location.pathname);
+    const hideNavbarRoutes = ["/login", "/signup", "/otp", "/forgot", "/admin", "/dashbord", "/maindash", "/addps", "/notfound", "/Orders", "/footer", "/manageProducts", '/ratings', '/userinfo', "/categouries"];
+    const shouldHideNavbar = hideNavbarRoutes.includes(location.pathname) || location.pathname.startsWith("/editproducts/");;
 
     // Hide footers from this routes
-    const hideFooterRoutes = ["/login", "/signup", "/otp", "/forgot", "/admin", "/dashbord", "/maindash", "/addps", "/notfound", "/Orders", "/footer", "/cart", "/manageProducts", "/users", '/ratings', '/userinfo', "/editproducts/", "/categouries"];
-    const shouldHideFooter = hideFooterRoutes.includes(location.pathname);
+    const hideFooterRoutes = ["/login", "/signup", "/otp", "/forgot", "/admin", "/dashbord", "/maindash", "/addps", "/notfound", "/Orders", "/footer", "/cart", "/manageProducts", "/users", '/ratings', '/userinfo', "/categouries"];
+    const shouldHideFooter = hideFooterRoutes.includes(location.pathname) || location.pathname.startsWith("/editproducts/");;
 
     let getCates = async () => {
         let response = await categories()
